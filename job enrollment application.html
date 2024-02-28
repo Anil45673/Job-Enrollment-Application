@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>job enrollment application</title>
+    <style>
+        div{
+            padding: 50px;
+            background-color: lightgray;
+
+            width: 300px;
+            border-radius: 10px;
+        }
+        input{
+            border-radius: 1px;
+            background-color: white;
+            border: none;
+            margin: 5px;
+        }
+        select,textarea{
+            border-radius: 5px;
+
+        }
+        .button{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+        <h2>Job Enrollment Application</h2>
+
+<form>
+    <label>UserName:</label><br>
+    <input type="text" placeholder="username"><br>
+    <label>Password:</label><br>
+    <input type="password" placeholder="password"><br>
+    <label>E-mail:</label><br>
+    <input type="email" placeholder="email"><br>
+    <labe>About yourself:</labe><br>
+    <textarea row="3" cols="30" placeholder="Bio"></textarea><br>
+
+    <label>DOB</label><br>
+    <input type="date"><br>
+    <label>Your Image</label><br>
+    <input type="file"><br>
+    <label>Mobile number</label><br>
+    <input type="number"><br>
+    <label>Designation</label><br>
+    <select>
+        <option value="software engineer">software engineer</option>
+        <option value="tester">tester</option>
+        <option value="project manager">project manager</option>
+    </select><br>
+    <label>Programming lamguages</label><br>
+    <input type="checkbox" value="c language">c
+    <input type="checkbox" value="java language">java
+    <input type="checkbox" value="python language ">python<br>
+    <label>Experience</label><br>
+    <input type="radio" name="experience" value="tester">tester
+    <input type="radio" name="experience" value="project manager">project manager<br>
+    <label>Your website</label><br>
+    <input type="url" placeholder="your website"><br>
+    <input class="button" type="submit" value="submit">
+    <input class="button" type="reset" value="reset">
+    </form>
+    </div>
+
+
+</body>
+</html>
